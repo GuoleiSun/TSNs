@@ -40,13 +40,13 @@ cd TSNs/
 4. For single tasks, run
 ```
 # Take task of parts segmentation as an example
-python test-single-task.py --batch_size 40 --ckdir /path/checkpoints/folder/ --best 129 --task parts
+python test-single-task.py --batch_size 40 --ckdir /path/to/checkpoints/folder/ --best 129 --task parts
 ```
 The results of tasks except edge detection will be printed out after executing the above script. However, the predictions of edge detection need to be evaluated by [seism repository](https://github.com/jponttuset/seism) (evaluation code is written in MATLAB and it is required to have it installed).
 
 5. For TSNs, run
 ```
-python test.py --batch_size 50 --ckdir /path/checkpoints/folder/ --best 129 
+python test.py --batch_size 50 --ckdir /path/to/checkpoints/folder/ --best 129 
 ```
 
 ### Citation
