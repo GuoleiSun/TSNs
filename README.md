@@ -28,6 +28,10 @@ Some other common packages are also needed.
 
 ### Trained models
 1. Download this repo and go ino the project.
+```
+git clone https://github.com/GuoleiSun/TSNs.git
+cd TSNs/
+```
 
 2. Go into `./fblib/util/`, and change `db_root` in `mypath.py` to be the data root you prefer. When running the code, the dataset will be automatically downloaded into this path if no datasets are found.
 
